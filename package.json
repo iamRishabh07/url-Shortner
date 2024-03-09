@@ -1,0 +1,18 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "description": "A URL shortener service that takes in a valid URL and returns a shortened URL, redirecting the user to the previously provided URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishabh Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "nanoid": "^3.3.7",
+    "nodemon": "^3.1.0"
+  }
+}
